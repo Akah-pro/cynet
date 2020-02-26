@@ -8,7 +8,7 @@ nav {
 	z-index: 500;
 }
 .top-ul .s-12.l-9 {
-	background: none repeat scroll 0 0 rgba(237,44,0,1.00);
+	background: none repeat scroll 0 0 #fff;
 }
 .top-nav ul {
 	padding: 0;
@@ -35,17 +35,12 @@ li.logo {
 .top-nav {
 	text-align: center;
 }
-.top-nav li a:hover, .top-nav li.active-item a, .top-nav li.logo.active-item a:hover {
-	background: none repeat scroll 0 0 rgba(255,71,0,1.00);
-}
+
 nav ul li ul li {
 	text-align: left;
 }
-.top-nav ul ul {
-	background: none repeat scroll 0 0 rgba(237,44,0,1.00);
-}
 .top-nav li ul li a {
-	background: none repeat scroll 0 0 rgba(237,44,0,1.00);
+	background: none repeat scroll 0 0 #fff;
 }
 #fourth-block h2 {
 	color: #fff;

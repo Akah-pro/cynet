@@ -54,6 +54,21 @@
 .bg-gradient-green{
     background: rgb(83, 175, 83);
 }
+.bg-gradient-maroon{
+    background: rgb(223, 120, 151);
+}
+.bg-gradient-purple{
+    background: purple;
+}
+.bg-gradient-red{
+    background: rgb(235, 50, 136);
+}
+.mb-5{
+    color: #fff;
+}
+.btn-dark{
+    color: #fff;
+}
 .footer-bottom{
     text-align: center;
     padding: 10px; background: #3d545f; color: #fff; font-size: 12px;
@@ -77,4 +92,19 @@
     font-size: 1.25rem;
     line-height: 1.7;
     font-weight: 300;
+}
+.dropdown-content{
+    width: 250px;
+    background-color: #fff;
+    padding: 15px 30px;
+    color: gray ;
+    display: none;
+    position: absolute;
+}
+.nav-item{
+    position: relative;
+    display: inline-block;
+}
+.nav-item:hover .dropdown-content{
+    display: block;
 }

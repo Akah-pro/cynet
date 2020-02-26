@@ -31,7 +31,7 @@ h5 {font-size:1em;}
 h6 {font-size:0.9em;}    
 a, a:link, a:visited, a:hover, a:active {
 	text-decoration:none;
-  color:#444;
+  color:#fff;
 	}
 img {
   border:0;
@@ -89,14 +89,14 @@ nav {
 .top-nav li a {
   padding:1.25em;
   display:block;
-  color:#fff; 
+  color:grey; 
 }
 .top-nav li ul li a {
   background:none repeat scroll 0 0 #222;
   min-width:100%;
   padding:0.625em;
 }
-.top-nav li a:hover, .aside-nav li a:hover {background:#999;}
+.top-nav li a:hover, .aside-nav li a:hover {background:#fff;}
 .top-nav li ul {display:none;}
 .top-nav li ul li {
   float:none;
@@ -325,8 +325,8 @@ nav {
 .top-nav li ul li a {border-top:1px solid #FFFFFF;}
 .top-nav li ul li ul li a {border-top:1px solid #FFFFFF;}
 .top-nav li a:hover {
-  background:none repeat scroll 0 0 #D46900;
-  color:#fff;
+  background: #fff;
+  color: #777;
 }
 .top-nav li ul,.top-nav li ul li ul {
   display:block;  
@@ -338,12 +338,12 @@ nav {
   height:auto;  
 }
 .top-nav li ul li a {
-  background:none repeat scroll 0 0 #FF6B1E;
+  background:none repeat scroll 0 0;
   padding:0.625em;
   padding-left: 5%;
 }
 .top-nav li ul li ul li a {
-  background:none repeat scroll 0 0 #FF6B1E;
+  background:none repeat scroll 0 0;
   color:#FFF;
   padding-left: 10%;
 }

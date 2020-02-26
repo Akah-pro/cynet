@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Cynet - local internet service provider</title>
+<title>Cynet - Local internet service provide</title>
 <meta charset="utf-8">
 <link rel="stylesheet" href="style.css"> 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="bootstrap.min.js"></script>
 <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
 <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 </head>
 <body class style>
+
     <nav class="sticky-top navbar py-1 navbar-expand-lg navbar-light bg-gradient-white" style>
         <div class="container">
             <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#nav-default" aria-controls="navbar-default" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,16 +33,22 @@
                 </div>
                 <ul class="navbar-nav ml-lg-auto text-primary">
                     <li class="nav-item">
-                        <a class="nav-link font-weight-bold" href="login.html">
+                        <a class="nav-link font-weight-bold" href="index.html">
                             <i class="ni ni-ui-04 d-lg-none"></i>
                             <span class="nav-link-inner--link">Home</span>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link font-weight-bold" data-toggle="dropdown" role="button" aria-expanded="false" href="#">
+                        <a class="nav-link font-weight-bold" href="index.html">
                             <i class="ni ni-ui-04 d-lg-none"></i>
-                            <span class="nav-link-inner--link">Package</span>
+                            <span class="nav-link-inner--link dropbtn">Package</span>
                         </a>
+                        <ul class="dropdown-content">
+                            <li><a>Starter Kes 999 5Mbps</a></li>
+                            <li><a>Extended Kes 1,499 10Mbps</a></li>
+                            <li><a>Max Kes 1,999 20Mbps</a></li>
+                            <li><a>Business Packages</a></li>
+                         </ul>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link font-weight-bold" href="#">
@@ -49,7 +59,7 @@
                     <li class="nav-item">
                         <a class="nav-link font-weight-bold" href="#">
                             <i class="ni ni-ui-04 d-lg-none"></i>
-                            <span class="nav-link-inner--link">Terms</span>
+                            <span class="nav-link-inner--link">Terms and Condition</span>
                         </a>
                     </li>
                     <li class="nav-item">
